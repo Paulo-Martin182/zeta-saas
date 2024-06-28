@@ -1,0 +1,27 @@
+{
+    "name": "@zeta/api",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "tsx watch src/index.ts"
+    },
+    "dependencies": {
+        "@fastify/cors": "^9.0.1",
+        "@zeta/auth": "workspace:*",
+        "fastify": "^4.28.0",
+        "fastify-type-provider-zod": "^2.0.0",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.9",
+        "@zeta/eslint-config": "workspace:*",
+        "@zeta/prettier-config": "workspace:*",
+        "@zeta/ts-config": "workspace:*",
+        "tsx": "^4.15.7"
+    },
+    "prettier": "@zeta/prettier-config",
+    "eslintConfig": {
+        "extends": [
+            "@zeta/eslint-config/node"
+        ]
+    }
+}

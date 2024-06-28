@@ -1,0 +1,4 @@
+{
+    "extends": "@zeta/ts-config/library.json",
+    "include": ["src/**/*"],
+}
