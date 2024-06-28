@@ -8,4 +8,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "editor.indentSize": "tabSize",
+  "typescript.preferences.preferTypeOnlyAutoImports": true
 }
